@@ -4,11 +4,12 @@
   "description": "Library Management backend server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "github.com/amiraliua/"
+    "url": "https://github.com/AmirAliuA/mern-library-management"
   },
   "keywords": [
     "library",
@@ -24,6 +25,7 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongodb": "^6.8.0",
     "nodemon": "^3.1.4"
