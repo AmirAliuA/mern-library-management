@@ -1,2 +1,2 @@
 # mern-library-management
- 
+This application is built with a React frontend using the Vite build tool and a Node.js backend with the Express framework. The frontend provides a user-friendly interface for managing a library's book inventory, while the backend connects to a MongoDB database to handle data storage and retrieval. The application allows users to perform various operations such as adding, updating, retrieving, and deleting books, ensuring efficient and seamless management of the library's inventory.
